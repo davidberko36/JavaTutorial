@@ -1,16 +1,30 @@
+import java.util.Scanner;
+
 public class hello {
 
 
-    class Boy{
-        public  void printKofi(){
-            System.out.println("Kofi");
-        }
+    static int lengthOfString(String a){
+        return a.length();
     }
+
+    // static void printString(String a){
+    //         System.out.println(a);
+    //     }
+
+    
     public static void main(String[] args){
-        System.out.println("Hello, World!");
-        int numberOne = 4;
-        double doubleOne = 4.5;
-        boolean boolOne = true;
-        char charOne = 'e'; 
+   
+
+    
+
+   double exponent = Math.pow(4, 2);
+   System.out.println(exponent); 
+   double root = Math.sqrt(4);
+   double absValue = Math.abs(-5);
+   System.out.println(root);
+   System.out.println(absValue);
+
+    
+
     }
 }
